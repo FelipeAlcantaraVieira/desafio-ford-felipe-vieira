@@ -1,3 +1,5 @@
+# secret = "word"
+
 def crypting(character):
     num = ord(character)
     if num < 65 or num > 90:
