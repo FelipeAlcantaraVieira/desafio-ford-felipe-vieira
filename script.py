@@ -11,7 +11,6 @@ def crypting(character):
     return chr(ord(character) + 4)
 
 
-# ASCII A-Z = 65 - 90
 def crypt():
     word = input("Qual palavra quer encriptar? ")
     upper_word = word.upper()
